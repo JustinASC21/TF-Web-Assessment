@@ -1,0 +1,73 @@
+body {
+    background-color: blanchedalmond;
+  }
+  
+  h2 {
+    color: coral;
+  }
+  h1 {
+    text-align: center;
+    color: lightskyblue;
+  }
+  img {
+    width: 50%;
+    height: 50%;
+    border: 2px lightblue dotted;
+  }
+  .logo {
+    width: 10%;
+    height: 10%
+  }
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tabs {
+    padding: 5%;
+    background-color: beige;
+  
+  }
+  .text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightblue;
+  }
+  .text:hover {
+    animation: logoCue infinite 5s;
+  }
+  a {
+    text-decoration: none;
+  }
+  #socialTab {
+    display: flex;
+    justify-content: space-around;
+  }
+  .socialLogo {
+    height: 100%;
+    width: 50px;
+  }
+  #nightCont {
+      font-weight: bold;
+      font-family: 'Courier New', Courier, monospace;
+      color: black;
+      margin-right : 3%;
+      padding: 5px;
+  }
+  #nightCont:hover {
+      background-color: aquamarine;
+      color: white;
+  }
+  
+  /* animation here for text to represent mr beast logo colors */
+  @keyframes logoCue {
+    33% {
+      color: blue;
+    }
+    66% {
+      color: red;
+    }
+    100% {
+      color: lightblue;
+    }
+  }
